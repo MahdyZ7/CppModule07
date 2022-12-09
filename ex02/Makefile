@@ -6,11 +6,11 @@
 #    By: ayassin <ayassin@student.42abudhabi.ae>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/24 18:00:42 by ayassin           #+#    #+#              #
-#    Updated: 2022/12/09 18:59:31 by ayassin          ###   ########.fr        #
+#    Updated: 2022/12/10 01:13:07 by ayassin          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = iter
+NAME = Array
 
 SRC = main.cpp
 
@@ -26,7 +26,7 @@ all : $(NAME)
 	$(CC) $(CFLAGS) -c $^ -o $@
 
 $(NAME) : $(OBJS)
-	$(CC) $(CFLAGS) $(SRC) Array.tpp -o $(NAME) 
+	$(CC) $(CFLAGS) $(SRC) -o $(NAME) 
 
 clean:
 	rm -f $(OBJS)

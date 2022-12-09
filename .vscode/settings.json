@@ -11,6 +11,17 @@
 		"string_view": "cpp",
 		"unordered_map": "cpp",
 		"utility": "cpp",
-		"vector": "cpp"
+		"vector": "cpp",
+		"exception": "cpp",
+		"istream": "cpp",
+		"new": "cpp",
+		"ostream": "cpp",
+		"stdexcept": "cpp",
+		"streambuf": "cpp",
+		"system_error": "cpp",
+		"type_traits": "cpp",
+		"typeinfo": "cpp",
+		"iostream": "cpp",
+		"*.tpp": "cpp"
 	}
 }
